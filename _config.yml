@@ -2,7 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               Woodee
+title:               근경
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
@@ -13,12 +13,12 @@ url:                 https://moodeekim.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             여기는 간단한 자기소개란
+tagline:             DevLog
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  아직 준비중인 블로그
+  아직 준비중인 블로그 
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
