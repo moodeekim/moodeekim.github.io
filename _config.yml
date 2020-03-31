@@ -23,7 +23,7 @@ description:         >
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              moodee kim
+  name:              woodee kim
   email:             woodeekim@gmail.com
 
 # Fallback image and color
@@ -51,7 +51,7 @@ google_analytics:    UA-92346434-1
 disqus_shortname:    moodee
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2020. by moodee'
+copyright:           '&copy; 2020. by woodee'
 
 # Format of the permalinks
 permalink:           pretty
