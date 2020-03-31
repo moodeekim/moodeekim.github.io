@@ -9,3 +9,36 @@ comments: false
 
 > TEST
 > 입니다.
+
+# 문자열
+
+자바스크립트에서 텍스트 데이터는 문자열로 저장된다. 단일 문자에 대한 별도의 타입이 존재하지는 않는다.
+
+문자열의 내부 형식은 `UTF-16`이며 페이지 인코딩과는 관련이 없다.
+
+## 따옴표
+
+따옴표는 작은 따옴표, 큰 따옴표, 역 따옴표가 있ㅆ다.
+
+```js
+let single = 'single-quoted';
+let double = 'double-quoted';
+
+let backticks = `backticks`;
+```
+
+작은 따옴표와 큰 따옴표는 기본적으로 동일하다. 그러나 백틱을 사용하면 표현식을 다음과 같이 묶어 문자열에 포함시킬 수 있다.
+
+```js
+function sum(a, b) {
+  return a + b;
+}
+
+alert(`1 + 2 = ${sum(1, 2)}.`); // 1 + 2 = 3.
+```
+
+백틱을 사용하는 또 다른 장점은 문자열이 여러 줄로 확장 될 수 있다는 것이다.
+
+```js
+let guestList = `Guests:
+ * John
